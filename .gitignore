@@ -3,3 +3,6 @@ build/
 
 # Ignore credentials.json
 resources/credentials.json
+
+#ignore tokens
+tokens

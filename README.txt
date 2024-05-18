@@ -59,6 +59,11 @@ Please note that the schedule is saved by default in the main directory of your 
 
 The Schedulizer streamlines the process of creating and managing schedules for the Avalon Beach Patrol. By leveraging the Google Sheets API, it offers efficient data synchronization, real-time updates, and enhanced collaboration. The program's flexibility allows you to adapt schedules to varying crowd sizes, optimize resource allocation, and ensure the safety and effectiveness of the beach patrol's operations.
 
+For debugging issues, open cmd and go the cd //file_save_folder
+manually run by entering, gradlew run
+This will allow the Java debug to remain visible and show what line the code is in. 
+
+Occasionally your API Token will expire this can be reset by delting the Stored Credential in the tokens folder. 
 
 To use the Schedulizer, you need to have Java JDK installed on your computer. Follow these steps to install Java and set it up in your system path:
 
